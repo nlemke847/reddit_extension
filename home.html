@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Nix Reddit Viewing Suite</title>
+    <link rel="stylesheet" type="text/css" href="nickReddit.css">
+    <link rel="stylesheet" type="text/css" href="libs/shadowbox/shadowbox.css">
+    <script type="text/javascript" src="libs/shadowbox/shadowbox.js"></script>
+</head>
+
+<body>
+	<div class="headingContainer"><h1 class="replace">Nick's Reddit Suite</h1></div>
+    <div class="listingsContainer">
+    	<div class='listings'>
+    		<div class="column1 largeColumn"><ul></ul></div>
+    		<div class="column2 largeColumn"><ul></ul></div>
+    		<div class="column3 smallColumn"><ul></ul></div>
+    	</div>
+    </div>
+    <div class="moreContainer">
+    	<a id="loadMore" data-after="25">Load More</a>
+    </div>
+    <div class="subredditsContainer">
+    	<!--<a id="getMe">Get My Info</a>-->
+        <!--<a id="getUserInfo">Get User Info</a>-->
+    	<a id="mySubreddits">Show Subreddits</a>
+        <!-- <a id="login">Login</a> -->
+   	</div>
+    <div class="accountLinks">
+        <div>
+            <a id="options"></a>
+            <ul class="options">
+                <li><label>hide nsfw</label><input type="checkbox" name="hideNSFW" checked="checked" /></li>
+            </ul>
+        </div>
+        <a id="username"></a>
+    </div>
+</body>
+
+<script src="libs/jquery.js"></script>
+<script src="libs/jquery.imagesloaded.js"></script>
+<script src="nickReddit.js" type="text/javascript"></script>
+</html>	

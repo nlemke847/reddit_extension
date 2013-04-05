@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Nicks Reddit Suite",
+  "description": "This extension displays reddit in a different way.",
+  "version": "1",
+  "permissions": [
+      "tabs",
+      "http://*.reddit.com/",
+      "https://*.reddit.com/",
+      "http://*.imgur.com/",
+      "http://imgur.com/",
+      "http://*.quickmeme.com/",
+      "http://qkme.me/",
+      "http://*.qkme.me/",
+	    "http://*.livememe.com/",
+      "http://instagram.com/",
+      "http://*.instagram.com/",
+      "http://*.nicklemke.com/",
+      "http://nicklemke.com/"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Nicks Reddit Suite"
+  }
+}
